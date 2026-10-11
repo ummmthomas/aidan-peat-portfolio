@@ -19,13 +19,34 @@ It is also published with GitHub Pages at https://ummmthomas.github.io/aidan-pea
 
 | Path | What it is |
 | --- | --- |
-| `index.html`, `about.html`, `cv.html`, `graphics.html`, `pc-project.html`, `psychic-attack.html`, `radio.html`, `contact-form.html` | One file per page. All site content (text, layout, image lists) lives in the JSON embedded in each page; the pages differ only in their meta tags. |
+| `*.html` in the root | One file per page, **generated** by `tools/build.py`. Don't edit them by hand. |
+| `site-src/` | The editable source: page bodies, stylesheet, page titles and share text. See "Editing content" below. |
+| `tools/` | `build.py` regenerates the HTML from `site-src/`. |
 | `assets/cargo/` | The Cargo front-end bundle (`index.js`, `index.css`) that renders the pages. |
 | `assets/freight/i/<hash>/<name>` | Every image the site uses, at up to 2000px wide. |
 | `assets/type/`, `assets/static/` | The Diatype font and a background texture. |
 | `serve.py` | Tiny preview server. |
 
 The live site is built on [Cargo](https://cargo.site). Everything loads from this repo except embedded videos and players (Vimeo, YouTube, SoundCloud), which still stream from those services.
+
+## Editing content
+
+Cargo puts the whole site's content (every page body, the stylesheet, the image lists) into one JSON blob and repeats it in every `.html` file. So edit the sources in `site-src/`, then rebuild:
+
+```sh
+python3 tools/build.py          # regenerate every .html file
+python3 tools/build.py --check  # just check they're up to date
+```
+
+| Source | What it holds |
+| --- | --- |
+| `site-src/pages/<page>.html` | A page's body, in Cargo's HTML (`<media-item hash="...">` places an image, `<gallery-columnized>` makes a grid). |
+| `site-src/site.css` | The site stylesheet. |
+| `site-src/state.json` | Cargo's page list and settings. `"@site-src/..."` strings point at the files above. A new page can be a few lines: `{"id", "title", "purl", "@template": "<an existing page id>"}`. |
+| `site-src/routes.json` | One entry per `.html` file: its `<title>`, description and share image. |
+| `site-src/shell.html` | The HTML wrapper every page shares. |
+
+To place an image, use its hash folder name from `assets/freight/i/`. The build adds it to the page's media list.
 
 ## Changes from the live site
 

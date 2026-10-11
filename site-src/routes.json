@@ -1,0 +1,68 @@
+{
+ "routes": [
+  {
+   "file": "index.html",
+   "title": "Aidan Peat",
+   "description": "Graphic designer and visual artist. \nLondon, UK.",
+   "og_title": "Aidan Peat",
+   "url": "https://aidanpeat.com",
+   "image": "assets/freight/i/R3172555047214688550948529635609/screenshot-3557155483.jpg"
+  },
+  {
+   "file": "about.html",
+   "title": "Aidan Peat",
+   "description": "Graphic designer and visual artist. \nLondon, UK.",
+   "og_title": "Aidan Peat",
+   "url": "https://aidanpeat.com/about",
+   "image": "assets/freight/i/B3169398667392874687619451453721/003325090029.jpg"
+  },
+  {
+   "file": "contact-form.html",
+   "title": "Aidan Peat",
+   "description": "Graphic designer and visual artist. \nLondon, UK.",
+   "og_title": "Aidan Peat",
+   "url": "https://aidanpeat.com",
+   "image": "assets/freight/i/R3172555047214688550948529635609/screenshot-3557155483.jpg"
+  },
+  {
+   "file": "cv.html",
+   "title": "Aidan Peat",
+   "description": "Graphic designer and visual artist. \nLondon, UK.",
+   "og_title": "Aidan Peat",
+   "url": "https://aidanpeat.com/cv",
+   "image": "assets/freight/i/R3172555047214688550948529635609/screenshot-3557155483.jpg"
+  },
+  {
+   "file": "graphics.html",
+   "title": "Aidan Peat",
+   "description": "Graphic designer and visual artist. \nLondon, UK.",
+   "og_title": "Aidan Peat",
+   "url": "https://aidanpeat.com/graphics",
+   "image": "assets/freight/i/V2982998910402254339518073602343/horizontal.jpg"
+  },
+  {
+   "file": "pc-project.html",
+   "title": "Aidan Peat",
+   "description": "Graphic designer and visual artist. \nLondon, UK.",
+   "og_title": "Aidan Peat",
+   "url": "https://aidanpeat.com/pc-project",
+   "image": "assets/freight/i/V2982998910402254339518073602343/horizontal.jpg"
+  },
+  {
+   "file": "psychic-attack.html",
+   "title": "Aidan Peat",
+   "description": "Graphic designer and visual artist. \nLondon, UK.",
+   "og_title": "Aidan Peat",
+   "url": "https://aidanpeat.com/psychic-attack",
+   "image": "assets/freight/i/V2982998910402254339518073602343/horizontal.jpg"
+  },
+  {
+   "file": "radio.html",
+   "title": "Aidan Peat",
+   "description": "Graphic designer and visual artist. \nLondon, UK.",
+   "og_title": "Aidan Peat",
+   "url": "https://aidanpeat.com/radio",
+   "image": "assets/freight/i/V2982998910402254339518073602343/horizontal.jpg"
+  }
+ ]
+}

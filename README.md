@@ -21,7 +21,8 @@ It is also published with GitHub Pages at https://ummmthomas.github.io/aidan-pea
 | --- | --- |
 | `*.html` in the root | One file per page, **generated** by `tools/build.py`. Don't edit them by hand. |
 | `site-src/` | The editable source: page bodies, stylesheet, page titles and share text. See "Editing content" below. |
-| `tools/` | `build.py` regenerates the HTML from `site-src/`. |
+| `tools/` | `build.py` regenerates the HTML from `site-src/`; `report.py` regenerates the media map and placeholder checklist. |
+| `docs/rebuild/` | The value-led rebuild: audit and research, templates, media map, placeholder checklist, positioning directions. |
 | `assets/cargo/` | The Cargo front-end bundle (`index.js`, `index.css`) that renders the pages. |
 | `assets/freight/i/<hash>/<name>` | Every image the site uses, at up to 2000px wide. |
 | `assets/type/`, `assets/static/` | The Diatype font and a background texture. |
@@ -47,6 +48,8 @@ python3 tools/build.py --check  # just check they're up to date
 | `site-src/shell.html` | The HTML wrapper every page shares. |
 
 To place an image, use its hash folder name from `assets/freight/i/`. The build adds it to the page's media list.
+
+After filling a `[[FACT/METRIC/QUOTE: ...]]` placeholder or moving media, run `python3 tools/report.py` to refresh `docs/rebuild/03-media-map.md` and `04-placeholders.md`.
 
 ## Changes from the live site
 

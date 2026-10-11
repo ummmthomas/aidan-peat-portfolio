@@ -390,3 +390,215 @@ media-item {
 
 .mobile .content {
 }
+
+/* ------------------------------------------------------------------
+   Case studies (value-led rebuild). Kept to the site's own type scale:
+   Diatype, bodycopy for prose, .caption size for labels, 0.4 black for
+   secondary text, the hr hairline for rules.
+   ------------------------------------------------------------------ */
+
+.cs-kicker {
+	color: rgba(0, 0, 0, 0.4);
+	margin-top: 2rem;
+}
+
+.cs-headline {
+	font-size: 2rem;
+	line-height: 1.05;
+	margin: 0.4rem 0 1rem;
+	max-width: 18em;
+}
+
+.cs-standfirst {
+	max-width: 34em;
+	margin-bottom: 1.5rem;
+}
+
+/* At-a-glance strip: label over value, wrapping into as many columns as fit */
+.cs-glance {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr));
+	gap: 0.9rem 1rem;
+	margin: 0 0 2rem;
+	padding: 0.75rem 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.15);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+	font-size: 0.9rem;
+	font-weight: 450;
+}
+
+.cs-glance > div {
+	min-width: 0;
+}
+
+.cs-glance dt {
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.cs-glance dd {
+	margin: 0.15em 0 0;
+}
+
+.cs-section {
+	margin: 2.5rem 0 1rem;
+}
+
+.cs-label {
+	font-size: 0.9rem;
+	font-weight: 450;
+	color: rgba(0, 0, 0, 0.4);
+	margin-bottom: 0.5rem;
+}
+
+.cs-section p {
+	margin: 0 0 0.9em;
+	max-width: 34em;
+}
+
+.cs-pair {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
+}
+
+.cs-pair h3 {
+	font-size: 1.05rem;
+	font-weight: 650;
+	margin: 0 0 0.35em;
+}
+
+.mobile .cs-pair {
+	grid-template-columns: 1fr;
+}
+
+.cs-media-note {
+	margin-top: 0.5rem;
+}
+
+/* Impact stats. The figure lives in data-value and is drawn by CSS, so there
+   is one place to fill it in. A stat whose value is still a [[...]]
+   placeholder is hidden, and a strip with no real stats hides entirely. */
+.impact {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+	gap: 1.25rem 1rem;
+	margin: 2.5rem 0 1rem;
+	padding-top: 0.75rem;
+	border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.impact > .cs-label {
+	grid-column: 1 / -1;
+	margin: 0;
+}
+
+.impact-stat::before {
+	content: attr(data-value);
+	display: block;
+	font-size: 2rem;
+	font-weight: 750;
+	line-height: 1;
+	letter-spacing: -0.01em;
+}
+
+.impact-stat::after {
+	content: attr(data-label);
+	display: block;
+	margin-top: 0.35em;
+	font-size: 0.9rem;
+	font-weight: 450;
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.impact-stat[data-value^="[["],
+.impact:not(:has(.impact-stat:not([data-value^="[["]))) {
+	display: none;
+}
+
+/* Testimonial: hidden until both the quote and its source are filled in */
+.cs-quote {
+	margin: 2.5rem 0 1rem;
+	padding: 0;
+	max-width: 30em;
+}
+
+.cs-quote::before {
+	content: "\201C" attr(data-quote) "\201D";
+	display: block;
+	font-size: 1.5rem;
+	font-weight: 650;
+	line-height: 1.15;
+}
+
+.cs-quote::after {
+	content: attr(data-cite);
+	display: block;
+	margin-top: 0.6em;
+	font-size: 0.9rem;
+	font-weight: 450;
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.cs-quote[data-quote^="[["],
+.cs-quote[data-cite^="[["] {
+	display: none;
+}
+
+.cs-credits {
+	display: grid;
+	grid-template-columns: 9rem 1fr;
+	gap: 0.3rem 1rem;
+	margin: 2.5rem 0 1rem;
+	padding-top: 0.75rem;
+	border-top: 1px solid rgba(0, 0, 0, 0.15);
+	font-size: 0.9rem;
+	font-weight: 450;
+}
+
+.cs-credits dt {
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.cs-credits dd {
+	margin: 0;
+}
+
+.cs-next {
+	margin-top: 2.5rem;
+}
+
+/* Copy still waiting on a fact from Aidan. Search the sources for "[[". */
+.ph {
+	background: rgba(255, 221, 0, 0.35);
+}
+
+/* Homepage */
+.hero {
+	padding: 4rem 0 4.5rem;
+}
+
+.hero h2 {
+	max-width: 15em;
+	margin-bottom: 1rem;
+}
+
+.hero-sub {
+	max-width: 34em;
+	margin-bottom: 1rem;
+}
+
+.index-group {
+	color: rgba(0, 0, 0, 0.4);
+	padding: 0.75rem 0 1rem;
+	border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.index-group + gallery-columnized {
+	margin-bottom: 3rem;
+}
+
+.cs-kicker a,
+.cs-section p a,
+bodycopy a.cta {
+	text-decoration: underline;
+}

@@ -25,7 +25,7 @@ How to fill one: search `site-src/pages/` for the text and replace the whole `[[
 - [ ] `[[FACT: the audience this edition was aimed at]]`
 - [ ] `[[FACT: what Aidan kept from each brand, what he changed, and why. His own account of the bridge]]`
 - [ ] `[[FACT: how the design developed, e.g. briefs, rounds, what was tried and dropped. No sketches or iterations are in the current media]]`
-- [ ] `[[METRIC: sell-through / time to sell out]]`
+- [ ] `[[METRIC: time to sell out]]`
 - [ ] `[[METRIC: Instagram engagement on launch post, likes/shares/saves]]`
 - [ ] `[[METRIC: press coverage]]`
 - [ ] `[[QUOTE: collaborator or client testimonial]]`
@@ -42,7 +42,7 @@ How to fill one: search `site-src/pages/` for the text and replace the whole `[[
 - [ ] `[[FACT: what Aidan kept from each brand, what he changed, and why. His own account of the bridge]]`
 - [ ] `[[FACT: how the design developed. No sketches or iterations are in the current media]]`
 - [ ] `[[FACT: is this hoodie part of the adidas collaboration?]]`
-- [ ] `[[METRIC: sell-through / time to sell out]]`
+- [ ] `[[METRIC: time to sell out]]`
 - [ ] `[[METRIC: Instagram engagement on launch post, likes/shares/saves]]`
 - [ ] `[[METRIC: press coverage]]`
 - [ ] `[[QUOTE: collaborator or client testimonial]]`
@@ -56,7 +56,7 @@ How to fill one: search `site-src/pages/` for the text and replace the whole `[[
 - [ ] `[[FACT: the audience this edition was aimed at]]`
 - [ ] `[[FACT: what Aidan kept from each brand, what he changed, and why. His own account of the bridge]]`
 - [ ] `[[FACT: how the design developed. No sketches or iterations are in the current media]]`
-- [ ] `[[METRIC: sell-through / time to sell out]]`
+- [ ] `[[METRIC: time to sell out]]`
 - [ ] `[[METRIC: press coverage]]`
 - [ ] `[[QUOTE: collaborator or client testimonial]]`
 - [ ] `[[FACT: name and role of the person quoted]]`
@@ -111,7 +111,7 @@ How to fill one: search `site-src/pages/` for the text and replace the whole `[[
 ## Hefty Bruises 002 (`hefty-bruises-002`)
 
 - [ ] `[[METRIC: pressing size]]`
-- [ ] `[[METRIC: sell-through / time to sell out]]`
+- [ ] `[[METRIC: time to sell out]]`
 
 ## Radio (`radio`)
 
@@ -127,7 +127,7 @@ How to fill one: search `site-src/pages/` for the text and replace the whole `[[
 ## Psychic Attack (`psychic-attack`)
 
 - [ ] `[[METRIC: print run per edition]]`
-- [ ] `[[METRIC: sell-through / time to sell out]]`
+- [ ] `[[METRIC: time to sell out]]`
 
 ## About (`about`)
 

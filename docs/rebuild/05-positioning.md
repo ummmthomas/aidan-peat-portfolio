@@ -23,7 +23,7 @@ Every direction is built only from what the site already says: the old hero line
 
 **Card captions:** Limited gift boxes made to be collected · A solo show announced at building scale · The Superstar, saved by a lobster · A laptop sold as a collectable · An identity that works as merch · Two zines, both editions sold out · The lab behind the client work
 
-**Card metrics:** each card leads with one number from its case study's impact stats, pulled in by `tools/build.py` (the first filled-in stat marked `data-headline`, else the first filled-in stat). Cards with nothing filled in yet show no number.
+**Card metrics:** each card leads with one number from its case study's impact stats, pulled in by `tools/build.py` (the first filled-in stat marked `data-headline`, else the first filled-in stat). Cards with nothing filled in yet show their `[[METRIC]]` placeholder, highlighted, until the number arrives. The Colbert hub's case-study cards work the same way.
 
 **Page title / meta (home):** "Aidan Peat: graphic designer for brand partnerships and branded content" / "Graphic designer and visual artist, London. Four years in Philip Colbert's studio, across his brand partnerships with Johnnie Walker, adidas and ASUS and the branded content around them, plus flyers, sleeves, videos and identities for music and nightlife."
 

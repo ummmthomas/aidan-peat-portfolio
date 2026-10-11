@@ -21,10 +21,11 @@ in every .html file, so it is not edited by hand. Instead:
   site-src/shell.html    the HTML shell, with {{TITLE}}, {{META}},
                          {{SITE_CSS}} and {{STATE}} slots.
 
-Homepage cards lead with a metric pulled from the linked page's impact stats
+Homepage and Colbert hub cards lead with a metric pulled from the linked page's impact stats
 (<div class="impact-stat" data-value data-label>): the first filled-in stat
 marked data-headline="true", else the first filled-in stat. A card whose page
-has nothing filled in yet shows no metric.
+has only [[METRIC]] placeholders shows that placeholder, highlighted, with
+its label.
 
 A page in state.json can be written short: {"id", "title", "purl",
 "@template": "<id of an existing page>"} copies that page's settings (layout
@@ -92,19 +93,22 @@ def headline_metrics(state):
     pages = state['pages']['byId'].values()
     metrics = {}
     for page in pages:
-        stats = [(v, l, bool(h)) for v, l, h in STAT.findall(page.get('content') or '') if not v.startswith('[[')]
-        stats.sort(key=lambda s: not s[2])
+        stats = [(v, l, bool(h)) for v, l, h in STAT.findall(page.get('content') or '')]
+        # Filled-in before placeholder, then data-headline first.
+        stats.sort(key=lambda s: (s[0].startswith('[['), not s[2]))
         if stats:
             metrics[page['purl']] = stats[0][:2]
     for page in pages:
-        if page['purl'] != 'homepage':
+        if page['purl'] not in ('homepage', 'pc-project'):
             continue
         def card(m):
             metric = metrics.get(m.group(2))
             if not metric:
                 return m.group(0)
             value, label = metric
-            return f'{m.group(1)}{m.group(3)}<span class="card-metric"><b>{value}</b> {label}</span><br />'
+            # A placeholder shows as a highlighted dummy number until it is filled in.
+            value = f'<b class="ph">{value}</b>' if value.startswith('[[') else f'<b>{value}</b>'
+            return f'{m.group(1)}{m.group(3)}<span class="card-metric">{value} {label}</span><br />'
         page['content'] = CARD.sub(card, page['content'])
 
 

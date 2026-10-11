@@ -13,6 +13,8 @@ npx serve -l 8000 .       # if you prefer Node
 
 Use one of those rather than opening `index.html` directly. The site's script routes on the URL path (`/about`, `/cv` ...), so it needs a server that maps `/about` to `about.html`.
 
+It is also published with GitHub Pages at https://ummmthomas.github.io/aidan-peat-portfolio/ (from `main`). Pages carry a `noindex` tag so this copy stays out of search results.
+
 ## What's in here
 
 | Path | What it is |
@@ -32,3 +34,5 @@ Only what was needed to run it from a local folder:
 - Asset URLs on Cargo's servers point at `assets/` instead.
 - `assets/cargo/index.js` loads images from `assets/freight/` at one fixed size, instead of requesting a resized copy from Cargo's image server for each screen width.
 - `"domain_active"` is set to `false` in each page's data, so the script doesn't redirect you to aidanpeat.com.
+- A small inline script in each page sets `window.__SITE_BASENAME__` when the site is served from a sub-path (like GitHub Pages), and `assets/cargo/index.js` passes it to the router so page URLs still resolve.
+- Each page has `<meta name="robots" content="noindex, nofollow">`.

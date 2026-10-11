@@ -2,9 +2,9 @@
  "routes": [
   {
    "file": "index.html",
-   "title": "Aidan Peat: graphic designer for artist and brand collaborations",
-   "description": "Graphic designer and visual artist, London. Four years in Philip Colbert's studio, across his collaborations with Johnnie Walker, adidas and ASUS, plus flyers, sleeves, videos and identities for music and nightlife.",
-   "og_title": "Aidan Peat: graphic designer for artist and brand collaborations",
+   "title": "Aidan Peat: graphic designer for brand partnerships and branded content",
+   "description": "Graphic designer and visual artist, London. Four years in Philip Colbert's studio, across his brand partnerships with Johnnie Walker, adidas and ASUS and the branded content around them, plus flyers, sleeves, videos and identities for music and nightlife.",
+   "og_title": "Aidan Peat: graphic designer for brand partnerships and branded content",
    "url": "https://aidanpeat.com",
    "image": "assets/freight/i/V3169171048055575029634192245017/Johnnie-Walker-Blue-Label--.jpg"
   },
@@ -19,7 +19,7 @@
   {
    "file": "contact-form.html",
    "title": "Work with Aidan Peat",
-   "description": "Bringing an artist and a brand together? Get in touch with Aidan Peat, graphic designer and visual artist in London.",
+   "description": "Planning a brand partnership or branded content with an artist? Get in touch with Aidan Peat, graphic designer and visual artist in London.",
    "og_title": "Work with Aidan Peat",
    "url": "https://aidanpeat.com/contact-form",
    "image": "assets/freight/i/N3171073763280052760455287275801/Me.png"
@@ -27,7 +27,7 @@
   {
    "file": "cv.html",
    "title": "CV: Aidan Peat",
-   "description": "Aidan Peat's CV: Philip Colbert studio, brand collaborations, music videos, flyers, sleeves and self-published zines.",
+   "description": "Aidan Peat's CV: Philip Colbert studio, brand partnerships and branded content, music videos, flyers, sleeves and self-published zines.",
    "og_title": "CV: Aidan Peat",
    "url": "https://aidanpeat.com/cv",
    "image": "assets/freight/i/N3171073763280052760455287275801/Me.png"
@@ -35,7 +35,7 @@
   {
    "file": "pc-project.html",
    "title": "Philip Colbert, 2022–2026: Aidan Peat",
-   "description": "Four years taking Philip Colbert's lobster from the canvas to whisky, sneakers, laptops and city streets: brand collaborations, exhibition campaigns, collectables and books.",
+   "description": "Four years taking Philip Colbert's lobster from the canvas to whisky, sneakers, laptops and city streets: brand partnerships, branded content, exhibition campaigns, collectables and books.",
    "og_title": "Philip Colbert, 2022–2026: Aidan Peat",
    "url": "https://aidanpeat.com/pc-project",
    "image": "assets/freight/i/Y3171041771442293863380401127705/IMG_8922.jpg"

@@ -597,6 +597,19 @@ media-item {
 	margin-bottom: 3rem;
 }
 
+/* Card metric: added by tools/build.py from the linked page's impact stats */
+.card-metric {
+	display: inline-block;
+	margin: 0.15em 0 0.1em;
+	font-size: 1.35rem;
+	line-height: 1.1;
+	letter-spacing: -0.01em;
+}
+
+.card-metric b {
+	font-weight: 750;
+}
+
 .cs-kicker a,
 .cs-section p a,
 bodycopy a.cta {

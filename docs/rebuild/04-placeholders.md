@@ -10,7 +10,7 @@ How to fill one: search `site-src/pages/` for the text and replace the whole `[[
 
 - [ ] `[[FACT: Aidan's job title at the Colbert studio, and start and end dates]]`
 - [ ] `[[FACT: Aidan's part across the partnership: which projects he led, which he supported]]`
-- [ ] `[[METRIC: number of brand collaborations Aidan worked on]]`
+- [ ] `[[METRIC: number of brand partnerships Aidan worked on]]`
 - [ ] `[[METRIC: number of exhibitions Aidan designed for]]`
 - [ ] `[[METRIC: markets / territories launched in]]`
 - [ ] `[[FACT: which of these campaigns Aidan designed]]`
@@ -130,7 +130,7 @@ How to fill one: search `site-src/pages/` for the text and replace the whole `[[
 
 ## About (`about`)
 
-- [ ] `[[FACT: confirm Aidan worked on all three collaborations]]`
+- [ ] `[[FACT: confirm Aidan worked on all three partnerships]]`
 
 ## CV (`cv`)
 

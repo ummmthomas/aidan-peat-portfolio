@@ -8,27 +8,29 @@ Every direction is built only from what the site already says: the old hero line
 
 ## Direction 1 (built): the artist's world, made into brands
 
-**The idea:** Aidan's strongest, most commercial work is translating one artist's universe into partnerships with global brands. Lead with that. Everything else shows the same instinct at culture scale.
+**The idea:** Aidan's strongest, most commercial work is translating one artist's universe into brand partnerships with global brands, and the branded content that launches them. Lead with that, in the industry's own terms: "brand partnerships" and "branded content". Everything else shows the same instinct at culture scale.
 
 **Hero headline:** Turning an artist's world into work brands can launch, and fans want to keep.
 
-**Subhead:** Graphic designer and visual artist, London. Four years in Philip Colbert's studio, across his collaborations with Johnnie Walker, adidas and ASUS and his exhibitions from Shenzhen to Naples. Outside it: flyers, sleeves, videos and identities for music and nightlife.
+**Subhead:** Graphic designer and visual artist, London. Four years in Philip Colbert's studio, across his brand partnerships with Johnnie Walker, adidas and ASUS, the branded content around them, and his exhibitions from Shenzhen to Naples. Outside it: flyers, sleeves, videos and identities for music and nightlife.
 
-**About (opening):** Graphic designer and visual artist, based in London. I make an artist's world work for a brand, and a brand's world work for an artist. Over 4 years of experience within a fast-paced artist's studio, Philip Colbert's… *(full text in `site-src/pages/about.html`)*
+**About (opening):** Graphic designer and visual artist, based in London. I make an artist's world work for a brand, and a brand's world work for an artist: brand partnerships, and the branded content that launches them. Over 4 years of experience within a fast-paced artist's studio, Philip Colbert's… *(full text in `site-src/pages/about.html`)*
 
 **Index order and grouping:**
-1. *Philip Colbert, 2022–2026 · Artist × brand collaborations*: Johnnie Walker, Shenzhen, adidas, ASUS, the whole partnership
+1. *Philip Colbert, 2022–2026 · Brand partnerships and branded content*: Johnnie Walker, Shenzhen, adidas, ASUS, the whole partnership
 2. *Music, nightlife and culture*: Moorland, NEW LANGUAGE, Grey Area, Duke Keats, Hefty Bruises, Radio
 3. *Self-initiated*: Psychic Attack, Personal Graphic Exploration
 
 **Card captions:** Limited gift boxes made to be collected · A solo show announced at building scale · The Superstar, saved by a lobster · A laptop sold as a collectable · An identity that works as merch · Two zines, both editions sold out · The lab behind the client work
 
-**Page title / meta (home):** "Aidan Peat: graphic designer for artist and brand collaborations" / "Graphic designer and visual artist, London. Four years in Philip Colbert's studio, across his collaborations with Johnnie Walker, adidas and ASUS, plus flyers, sleeves, videos and identities for music and nightlife."
+**Card metrics:** each card leads with one number from its case study's impact stats, pulled in by `tools/build.py` (the first filled-in stat marked `data-headline`, else the first filled-in stat). Cards with nothing filled in yet show no number.
+
+**Page title / meta (home):** "Aidan Peat: graphic designer for brand partnerships and branded content" / "Graphic designer and visual artist, London. Four years in Philip Colbert's studio, across his brand partnerships with Johnnie Walker, adidas and ASUS and the branded content around them, plus flyers, sleeves, videos and identities for music and nightlife."
 
 **Nav:** About · Instagram · Work with me
-**Contact CTA:** Bringing an artist and a brand together? Get in touch.
+**Contact CTA:** Planning a brand partnership or branded content with an artist? Get in touch.
 
-**Risk:** this direction stands or falls on Aidan's role in the Colbert collaborations. If his part turns out to be small, use Direction 2.
+**Risk:** this direction stands or falls on Aidan's role in the Colbert brand partnerships. If his part turns out to be small, use Direction 2.
 
 ---
 

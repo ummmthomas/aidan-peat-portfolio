@@ -21,6 +21,11 @@ in every .html file, so it is not edited by hand. Instead:
   site-src/shell.html    the HTML shell, with {{TITLE}}, {{META}},
                          {{SITE_CSS}} and {{STATE}} slots.
 
+Homepage cards lead with a metric pulled from the linked page's impact stats
+(<div class="impact-stat" data-value data-label>): the first filled-in stat
+marked data-headline="true", else the first filled-in stat. A card whose page
+has nothing filled in yet shows no metric.
+
 A page in state.json can be written short: {"id", "title", "purl",
 "@template": "<id of an existing page>"} copies that page's settings (layout
 CSS, overlay behaviour) under the new id. Each page's media library is
@@ -79,6 +84,30 @@ def complete_media(state):
             have.add(h)
 
 
+STAT = re.compile(r'<div class="impact-stat" data-value="([^"]*)" data-label="([^"]*)"( data-headline="true")?>')
+CARD = re.compile(r'(<media-item [^>]*href="([^"]+)"[^>]*>)(<figcaption class="caption" slot="caption">)')
+
+
+def headline_metrics(state):
+    pages = state['pages']['byId'].values()
+    metrics = {}
+    for page in pages:
+        stats = [(v, l, bool(h)) for v, l, h in STAT.findall(page.get('content') or '') if not v.startswith('[[')]
+        stats.sort(key=lambda s: not s[2])
+        if stats:
+            metrics[page['purl']] = stats[0][:2]
+    for page in pages:
+        if page['purl'] != 'homepage':
+            continue
+        def card(m):
+            metric = metrics.get(m.group(2))
+            if not metric:
+                return m.group(0)
+            value, label = metric
+            return f'{m.group(1)}{m.group(3)}<span class="card-metric"><b>{value}</b> {label}</span><br />'
+        page['content'] = CARD.sub(card, page['content'])
+
+
 def check_structure(state):
     pages = state['pages']['byId']
     order = state['structure']['byParent']['root']
@@ -125,6 +154,7 @@ def build():
     expand_templates(state)
     check_structure(state)
     complete_media(state)
+    headline_metrics(state)
     shell = read('site-src/shell.html') + '\n'
     state_js = serialize_state(state)
     routes = json.loads(read('site-src/routes.json'))['routes']

@@ -1,0 +1,140 @@
+{
+ "routes": [
+  {
+   "file": "index.html",
+   "title": "Aidan Peat: graphic designer for brand partnerships and branded content",
+   "description": "Graphic designer and visual artist, London. Four years in Philip Colbert's studio, across his brand partnerships with Johnnie Walker, adidas and ASUS and the branded content around them, plus flyers, sleeves, videos and identities for music and nightlife.",
+   "og_title": "Aidan Peat: graphic designer for brand partnerships and branded content",
+   "url": "https://aidanpeat.com",
+   "image": "assets/freight/i/V3169171048055575029634192245017/Johnnie-Walker-Blue-Label--.jpg"
+  },
+  {
+   "file": "about.html",
+   "title": "About Aidan Peat",
+   "description": "London graphic designer and visual artist. I make an artist's world work for a brand, and a brand's world work for an artist.",
+   "og_title": "About Aidan Peat",
+   "url": "https://aidanpeat.com/about",
+   "image": "assets/freight/i/B3169398667392874687619451453721/003325090029.jpg"
+  },
+  {
+   "file": "contact-form.html",
+   "title": "Work with Aidan Peat",
+   "description": "Planning a brand partnership or branded content with an artist? Get in touch with Aidan Peat, graphic designer and visual artist in London.",
+   "og_title": "Work with Aidan Peat",
+   "url": "https://aidanpeat.com/contact-form",
+   "image": "assets/freight/i/N3171073763280052760455287275801/Me.png"
+  },
+  {
+   "file": "cv.html",
+   "title": "CV: Aidan Peat",
+   "description": "Aidan Peat's CV: Philip Colbert studio, brand partnerships and branded content, music videos, flyers, sleeves and self-published zines.",
+   "og_title": "CV: Aidan Peat",
+   "url": "https://aidanpeat.com/cv",
+   "image": "assets/freight/i/N3171073763280052760455287275801/Me.png"
+  },
+  {
+   "file": "pc-project.html",
+   "title": "Philip Colbert, 2022–2026: Aidan Peat",
+   "description": "Four years taking Philip Colbert's lobster from the canvas to whisky, sneakers, laptops and city streets: brand partnerships, branded content, exhibition campaigns, collectables and books.",
+   "og_title": "Philip Colbert, 2022–2026: Aidan Peat",
+   "url": "https://aidanpeat.com/pc-project",
+   "image": "assets/freight/i/Y3171041771442293863380401127705/IMG_8922.jpg"
+  },
+  {
+   "file": "colbert-johnnie-walker.html",
+   "title": "Johnnie Walker × Philip Colbert: Aidan Peat",
+   "description": "Scotch heritage meets Mr. Lobster: limited Blue Label and XR21 gift boxes made to be collected.",
+   "og_title": "Johnnie Walker × Philip Colbert: Aidan Peat",
+   "url": "https://aidanpeat.com/colbert-johnnie-walker",
+   "image": "assets/freight/i/O3169203921647700650025645637913/Johnnie-Walker-Blue-Label--.jpg"
+  },
+  {
+   "file": "colbert-adidas.html",
+   "title": "adidas × Philip Colbert: Aidan Peat",
+   "description": "The Superstar, saved by a lobster: a classic adidas sneaker turned into a Colbert piece people can wear.",
+   "og_title": "adidas × Philip Colbert: Aidan Peat",
+   "url": "https://aidanpeat.com/colbert-adidas",
+   "image": "assets/freight/i/D3171045436090918290593634713881/imageQC28957483_2000_6.jpeg"
+  },
+  {
+   "file": "colbert-asus.html",
+   "title": "ASUS × Philip Colbert: Aidan Peat",
+   "description": "A laptop made to be collected, like art: the ASUS Vivobook 13 Slate OLED, Philip Colbert Edition.",
+   "og_title": "ASUS × Philip Colbert: Aidan Peat",
+   "url": "https://aidanpeat.com/colbert-asus",
+   "image": "assets/freight/i/Y3171041900975330748968872575257/Vivobook-13-Slate-OLED-Philip-Colbert-Edition_scenario-photo_06.jpg"
+  },
+  {
+   "file": "colbert-shenzhen.html",
+   "title": "The Myth of the Lobster Planet, Shenzhen: Aidan Peat",
+   "description": "Philip Colbert's first show in South China, announced across the whole building. Sea World Culture and Arts Center, 2023.",
+   "og_title": "The Myth of the Lobster Planet, Shenzhen: Aidan Peat",
+   "url": "https://aidanpeat.com/colbert-shenzhen",
+   "image": "assets/freight/i/R3171027368907050641689752764697/JOY_5788-edit_2000.jpg"
+  },
+  {
+   "file": "new-language.html",
+   "title": "NEW LANGUAGE tattoo studio identity: Aidan Peat",
+   "description": "An identity for NEW LANGUAGE, a contemporary tattoo studio, that works as well on a sweatshirt as on the door.",
+   "og_title": "NEW LANGUAGE tattoo studio identity: Aidan Peat",
+   "url": "https://aidanpeat.com/new-language",
+   "image": "assets/freight/i/B3169185396062242769439406031129/IMG_1866_crop.jpg"
+  },
+  {
+   "file": "moorland-praise.html",
+   "title": "Moorland, \"Praise\" music video: Aidan Peat",
+   "description": "Official music video for Moorland's \"Praise\", 2025.",
+   "og_title": "Moorland, \"Praise\" music video: Aidan Peat",
+   "url": "https://aidanpeat.com/moorland-praise",
+   "image": "assets/freight/i/B3169398667392874687619451453721/003325090029.jpg"
+  },
+  {
+   "file": "duke-keats-monkey-brains.html",
+   "title": "Duke Keats, \"Monkey Brains\" music video: Aidan Peat",
+   "description": "Official music video for Duke Keats's \"Monkey Brains\", 2025.",
+   "og_title": "Duke Keats, \"Monkey Brains\" music video: Aidan Peat",
+   "url": "https://aidanpeat.com/duke-keats-monkey-brains",
+   "image": "assets/freight/i/B3169398667392874687619451453721/003325090029.jpg"
+  },
+  {
+   "file": "grey-area-taipei.html",
+   "title": "Grey Area Taipei flyer: Aidan Peat",
+   "description": "Flyer for Ground at Grey Area, a nightclub in Taipei, 2025.",
+   "og_title": "Grey Area Taipei flyer: Aidan Peat",
+   "url": "https://aidanpeat.com/grey-area-taipei",
+   "image": "assets/freight/i/M3169210837848562717800413921561/Grey-Area-Ground-April-6-2.png"
+  },
+  {
+   "file": "hefty-bruises-002.html",
+   "title": "Hefty Bruises 002 sleeve: Aidan Peat",
+   "description": "Record sleeve for HEFTY002 by SDS MAX + VERE, 2024.",
+   "og_title": "Hefty Bruises 002 sleeve: Aidan Peat",
+   "url": "https://aidanpeat.com/hefty-bruises-002",
+   "image": "assets/freight/i/U3170911431157440865305265307929/a1011066380_10.jpg"
+  },
+  {
+   "file": "psychic-attack.html",
+   "title": "Psychic Attack zines: Aidan Peat",
+   "description": "Two home-printed zines from a personal archive of UFO, occult and religious print. Both editions sold out.",
+   "og_title": "Psychic Attack zines: Aidan Peat",
+   "url": "https://aidanpeat.com/psychic-attack",
+   "image": "assets/freight/i/H3169173165059265160763464352025/BothZines.jpg"
+  },
+  {
+   "file": "radio.html",
+   "title": "Radio Residencies: Aidan Peat",
+   "description": "Five years of monthly mixes on London radio, including Voices Radio and RTM Radio.",
+   "og_title": "Radio Residencies: Aidan Peat",
+   "url": "https://aidanpeat.com/radio",
+   "image": "assets/freight/i/J3169421536725393324962357838105/RTM-RAWMATERIAL2-small.jpg"
+  },
+  {
+   "file": "graphics.html",
+   "title": "Personal Graphic Exploration: Aidan Peat",
+   "description": "The experiments behind the client work: personal graphics built from found imagery and archival research, 2019–2026.",
+   "og_title": "Personal Graphic Exploration: Aidan Peat",
+   "url": "https://aidanpeat.com/graphics",
+   "image": "assets/freight/i/A3172363619522264539639192092953/3together2.jpg"
+  }
+ ]
+}

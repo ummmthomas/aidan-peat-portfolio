@@ -21,7 +21,7 @@ Every direction is built only from what the site already says: the old hero line
 2. *Music, nightlife and culture*: Moorland, NEW LANGUAGE, Grey Area, Duke Keats, Hefty Bruises, Radio
 3. *Self-initiated*: Psychic Attack, Personal Graphic Exploration
 
-**Card captions:** Limited gift boxes made to be collected · A solo show announced at building scale · The Superstar, saved by a lobster · A laptop sold as a collectable · An identity that works as merch · Two zines, both editions sold out · The lab behind the client work
+**Card captions:** Limited gift boxes made to be collected · A solo show announced across a whole building · The Superstar, saved by a lobster · A laptop made to be collected, like art · A tattoo studio look that works on a sweatshirt too · Two zines, both editions sold out · The experiments behind the client work
 
 **Card metrics:** each card leads with one number from its case study's impact stats, pulled in by `tools/build.py` (the first filled-in stat marked `data-headline`, else the first filled-in stat). Cards with nothing filled in yet show their `[[METRIC]]` placeholder, highlighted, until the number arrives. The Colbert hub's case-study cards work the same way.
 
